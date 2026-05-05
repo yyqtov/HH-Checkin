@@ -1,4 +1,4 @@
-name: Hohai-Checkin
+name: Hh-Checkin
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
       - name: 📥 下载私库脚本
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/Hohai-Checkin-Private
+          repository: ${{ github.repository_owner }}/Hh-Checkin-Private
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           path: private
 
