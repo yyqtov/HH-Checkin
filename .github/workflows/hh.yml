@@ -3,7 +3,6 @@ name: Hh-Checkin
 on:
   workflow_dispatch:
   schedule:
-    # 每天北京时间 00:05 运行（UTC 16:05 前一天）
     - cron: '5 5 * * *'
 
 jobs:
